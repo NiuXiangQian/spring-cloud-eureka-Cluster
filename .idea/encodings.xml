@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-member02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-order" charset="UTF-8" />
+  </component>
+</project>

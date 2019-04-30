@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-cloud-eureka
+  profiles: peer1
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8001/eureka/,http://peer3:8002/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  server:
+    # 测试时关闭自我保护机制，保证不可用服务及时踢出
+    enable-self-preservation: false
+    ##剔除失效服务间隔
+    eviction-interval-timer-in-ms: 2000
